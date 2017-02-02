@@ -1,0 +1,21 @@
+.cc-container {
+	position: relative;
+}
+.cc-one-third {
+	float: left;
+	width: 30.2%;
+	padding: 1em;
+	background-color: #fff;
+	margin: 1em;
+	box-sizing: border-box;
+	border-radius: 0.5rem;
+}
+@media screen and (max-width: 65em) {
+	.cc-one-third {
+		width: 100%;
+		margin: 1em 0em 1em 0em;
+	}
+}
+.cc-footer .actions li {
+	margin-top: 2em;
+}
